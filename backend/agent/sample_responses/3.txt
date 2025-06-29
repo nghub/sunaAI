@@ -377,8 +377,9 @@ Let's start a server to preview our weather dashboard:
 
 <function_calls>
 <invoke name="execute_command">
-<parameter name="command">cd frontend && python -m http.server 3000</parameter>
+<parameter name="command">python -m http.server 3000</parameter>
 <parameter name="blocking">false</parameter>
+<parameter name="folder">frontend</parameter>
 </invoke>
 
 <function_calls>

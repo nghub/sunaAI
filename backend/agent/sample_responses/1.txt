@@ -650,7 +650,8 @@ Now, let's start a local server to test our Pong game:
 <invoke name="execute_command">
 <parameter name="session_name">pong_server</parameter>
 <parameter name="blocking">false</parameter>
-<parameter name="command">cd frontend && python -m http.server 8000</parameter>
+<parameter name="command">python -m http.server 8000</parameter>
+<parameter name="folder">frontend</parameter>
 </invoke>
 
 Now let's expose the port so you can try the game directly:
