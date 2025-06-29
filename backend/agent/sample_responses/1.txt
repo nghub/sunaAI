@@ -1,3 +1,4 @@
+```
 # Starting the Pong Game Project
 
 I'll build a classic Pong game for you! This will be a web-based version with simple but effective graphics using HTML Canvas and JavaScript.
@@ -649,7 +650,7 @@ Now, let's start a local server to test our Pong game:
 <invoke name="execute_command">
 <parameter name="session_name">pong_server</parameter>
 <parameter name="blocking">false</parameter>
-<parameter name="command">python -m http.server 8000</parameter>
+<parameter name="command">cd frontend && python -m http.server 8000</parameter>
 </invoke>
 
 Now let's expose the port so you can try the game directly:
@@ -715,3 +716,4 @@ Would you like me to make any adjustments or enhancements to the game? Perhaps:
 - Modify the visual style
 - Add additional features</parameter>
 </invoke>
+```
